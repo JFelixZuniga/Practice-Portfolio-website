@@ -1,0 +1,29 @@
+.about-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  background-color: #fff;
+  color: #111;
+  margin: 100px 0;
+}
+.about-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+}
+.about-desc > h3 {
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+.about-desc > p {
+  line-height: 1.5;
+}
+.about-img {
+  overflow: hidden;
+  display: flex;
+  align-self: center;
+}
+.about-img img {
+  max-width: 100%;
+}
